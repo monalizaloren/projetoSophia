@@ -1,0 +1,39 @@
+//crie forma de plano e suporte utilizando 'rect'
+  ??(plane.position.x,plane.position.y,1200,20);
+  ??(block1.position.x,block1.position.y,150,20);
+  ???(block2.position.x,block2.position.y,150,20);
+
+  //crie forma para todas as partículas utilizando ' ellipse'
+  ???(particle1.position.x,particle1.position.y,10);
+  ???(particle2.position.x,particle2.position.y,10);
+  ???(particle3.position.x,particle3.position.y,10);
+  ???(particle4.position.x,particle4.position.y,10);
+  ???(particle5.position.x,particle5.position.y,10);
+
+  //crie forma para todos os rotadores 1, 2 e 3
+  
+  Matter.Body.rotate(???,angle1)
+  push();
+  translate(rotator1.position.x,rotator1.position.y);
+  rotate(angle1);
+  rect(0,0,150,20);
+  pop();
+  angle1 +=0.2;
+
+  Matter.Body.rotate(???,angle2)
+  push();
+  translate(rotator2.position.x,rotator2.position.y);
+  rotate(angle2);
+  rect(0,0,150,20);
+  pop();
+  angle2 +=0.3;
+
+  Matter.Body.rotate(???,angle3)
+  push();
+  translate(rotator3.position.x,rotator3.position.y);
+  rotate(angle3);
+  rect(0,0,150,20);
+  pop();
+  angle3 +=0.4;
+    
+}
